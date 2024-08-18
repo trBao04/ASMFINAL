@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read data from CSV files
-khach_hang_df = pd.read_csv('Dữ liệu khách hàng + quốc gia.txt')
+customer_df = pd.read_csv('CustomerData.txt')
 marketing_trend_df = pd.read_csv('Dữ liệu market trend.txt')
 truy_cap_web_df = pd.read_csv('Dữ liệu truy cập website.txt')
 san_pham_va_gia_df = pd.read_csv('Dữ liệu về sản phẩm và giá.txt')
